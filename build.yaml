@@ -6,5 +6,5 @@ include:
       -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
       -DZMK_EXTRA_MODULES="$GITHUB_WORKSPACE;$GITHUB_WORKSPACE/modules/zmk-pmw3610-driver"
       -DCONFIG_PMW3610=y
-  - board: seeeduino_xiao_ble/zmk
+  - board: seeeduino_xiao_ble
     shield: settings_reset
