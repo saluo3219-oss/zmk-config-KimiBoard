@@ -15,8 +15,8 @@
 
         default_layer {
             bindings = <
-                &bt BT_NXT  &lt 1 MB3      &mkp LCLK  &mkp RCLK
-                            &kp BACKSPACE  &kp SPACE  &kp ENTER
+                &bt BT_NXT  &lt 1 MB3         &mkp LCLK     &mkp RCLK
+                            &kp BACKSPACE     &kp SPACE     &kp ENTER
             >;
         };
 
