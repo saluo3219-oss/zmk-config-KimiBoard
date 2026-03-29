@@ -3,6 +3,6 @@ id: kimi
 name: kimiboard
 type: shield
 url:
-requires: [seeeduino_xiao_ble]
+requires: [seeeduino_xiao_ble/zmk]
 features:
   - keys
