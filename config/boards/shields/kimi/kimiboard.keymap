@@ -15,13 +15,15 @@
 
         default_layer {
             bindings = <
-                &bt BT_NXT  &lt 1 MB3  &mkp LCLK  &mkp RCLK
+                &bt BT_NXT  &lt 1 MB3      &mkp LCLK  &mkp RCLK
+                            &kp BACKSPACE  &kp SPACE  &kp ENTER
             >;
         };
 
         scroll_layer {
             bindings = <
                 &trans          &trans      &tb_rot_ccw      &tb_rot_cw
+                &trans          &trans      &trans           &trans  
             >;
         };
     };
